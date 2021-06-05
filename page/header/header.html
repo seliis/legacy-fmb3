@@ -1,0 +1,19 @@
+{{define "header"}}
+<header>
+    <div id="header-master">
+        <p onclick="moveLanding();">
+            VFA-314 FULL METAL BITCHES
+        </p>
+        <i onclick="menuControl();" id="header-hamburger" class="fas fa-bars"></i>
+    </div>
+    <div id="header-slave">
+        <ul>
+            {{range .Menus}}
+                <li onclick="pageChanger(this.innerHTML);" class="header-slave-menu">
+                    {{.Menu}}
+                </li>
+            {{end}}
+        </ul>
+    </div>
+</header>
+{{end}}

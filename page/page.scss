@@ -1,0 +1,39 @@
+// Colors
+$bg: #010204;
+$lt: #D0D0D0;
+$rd: #FD2F4A;
+$yw: #E2B640;
+
+// Fonts
+$noto: "Noto Sans KR", sans-serif;
+$quick: "Quicksand", sans-serif;
+
+// Imports
+@import "header";
+@import "wrong";
+@import "home";
+
+// Scripts
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: $bg;
+    font-family: $noto;
+    height: 100vh;
+    width: 100vw;
+    color: $lt;
+}
+
+main {
+    grid-template: 50px 1fr / 1fr;
+    display: grid;
+    height: 100%;
+}
+
+section {
+    overflow: hidden;
+}

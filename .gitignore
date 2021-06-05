@@ -1,0 +1,7 @@
+tmp/
+*.css
+*.wasm
+go.mod
+go.sum
+initServer
+wasm_exec.js

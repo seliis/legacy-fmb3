@@ -1,0 +1,16 @@
+#home {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    .home-container {
+        height: 100%;
+    }
+}
+
+#img-corsair {
+    filter: grayscale(25%) contrast(125%) opacity(75%);
+    object-position: 40% 55%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
